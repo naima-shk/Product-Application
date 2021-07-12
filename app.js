@@ -1,19 +1,27 @@
-function myItems(){
-    let Products= [{
+let products = ["footwear", "electronics", "clothes"];
+
+function myItems() {
+  //let products = ['footwear','electronics', 'clothes'];
+
+  document.getElementById("main").innerHTML = "footwear";
+
+  let result = products.filter((products) => products.length);
+  console.log(result);
+  /*let Products= [{
         productName :'Nike shoes',
-        image:,
+        image:'./shoeimage.png',
         tag: 'footwear'
     },
     {
-        productName :'Nike shoes',
+        productName :' Head phones',
         image:,
-        tag: 'footwear'
+        tag: 'Electronics'
     },
     {
-    productName :'Nike shoes',
+    productName :' Shirt',
         image:,
-        tag: 'footwear'
+        tag: 'clothes'
     }
 
-]
+]*/
 }

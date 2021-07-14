@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  background: #222;
+  background: teal;
 }
 main {
   width: 90%;
   background: white;
   margin: 60px auto;
   font-family: sans-serif;
+  border-radius: 10px;
 }
 header {
   width: 100%;
@@ -29,7 +30,7 @@ header ul li a {
   text-decoration: none;
 }
 header ul li.active a {
-  color: red;
+  color: #1565c0;
 }
 
 div {
@@ -53,16 +54,53 @@ div ul li {
   transition: 0.5s;
 }
 
-div ul li img{
-    width: 100%;
-    height: 65%;
+div ul li img {
+  width: 100%;
+  height: 65%;
 }
 
-div ul li p{
-    font-size: 18px;
-    line-height: 25px;
+div ul li p {
+  font-size: 18px;
+  line-height: 25px;
 }
 
-div ul li h4{
-    color: #999;
+div ul li h4 {
+  color: black;
+}
+#item-1{
+  margin-left: 72px;
+  margin-top: 6px;
+  padding: 10px ;
+  width: 7rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+#item-2{
+  margin-left: 72px;
+  margin-top: 6px;
+  padding: 10px ;
+  width: 7rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#item-3{
+  margin-left: 72px;
+  margin-top: 6px;
+  padding: 10px ;
+  width: 7rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+h1{
+  padding-left: 6px;
+  margin-left:10px;
 }

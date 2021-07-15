@@ -6,7 +6,7 @@
 
 ## What does this app do?
 
-- - The main purpose of this project is to display items by selecting the category on the screen.
+- The main purpose of this project is to display items by selecting the category on the screen.
 
 ## Technologies used:
 
